@@ -2,7 +2,7 @@
 
 int bubblesort(long length,long *list){
 
-  int temp;
+  long temp;
   int doneFlag=0;
   while(!doneFlag){
     doneFlag=1;
