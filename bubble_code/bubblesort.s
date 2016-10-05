@@ -17,7 +17,6 @@ bubblesort:
 	cmpq	%r9, %rcx
 	jge	.L3
 	movq	%r9, (%r8)
-	movslq	%ecx, %rcx
 	movq	%rcx, (%rax)
 	movl	%r10d, %r11d
 .L3:
